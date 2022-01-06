@@ -1,15 +1,22 @@
-import React from "react";
-import './Pagination.css';
+import "./Pagination.css";
 
-function Pagination({name}){
+function Pagination({children,width,height,bgColor,borderRadius}) {
+
+    const paginationStyle = {
+        width: width,
+        height: height,
+        backgroundColor: bgColor,
+        borderRadius: borderRadius,
+    }
+
+
     return (
-    <>
-        <p className="para">hiii {name}</p>
-        <p className="para">hiii {name}</p>
-        <p className="para">hiii {name}</p>
-    </>
+        <div className="myPagination" style={paginationStyle}>
+            <ul className="lists">
+                {children}
+            </ul>
+        </div>
     )
-
 }
 
-export default Pagination;
+export default Pagination

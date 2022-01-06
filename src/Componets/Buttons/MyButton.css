@@ -1,0 +1,114 @@
+.button{
+    padding: 10px 20px;
+    display: inline-block;
+    font: bold;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.primary{
+    border: 1px solid blueviolet;
+    color: blue;
+}
+
+.primary:hover{
+    background-color: blueviolet;
+    color: white;
+
+}
+
+.secondary{
+    border: 1px solid rgb(191, 158, 158);
+    color: rgb(117, 137, 117);
+}
+
+.secondary:hover{
+    background-color: rgb(117, 137, 117);
+    color: white;
+
+}
+
+.success{
+    border: 1px solid green;
+    color: rgb(71, 95, 71);
+}
+
+.success:hover{
+    background-color: rgb(114, 150, 114);
+    color: white;
+
+}
+
+.info{
+    border: 1px solid blue;
+    color: skyblue;
+}
+
+.info:hover{
+    background-color: skyblue;
+    color: black;
+
+
+}
+
+.warning{
+    border: 1px solid rgb(240, 240, 101);
+    color: rgb(240, 240, 101);
+}
+
+.warning:hover{
+    background-color: yellow;
+    color: black;
+
+}
+
+.danger{
+    border: 1px solid rgb(240, 60, 51);
+    color: rgb(240, 60, 51);
+}
+
+.danger:hover{
+    background-color: rgb(240, 60, 51);
+    color: black;
+
+}
+
+.small{
+    padding: 10px 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.medium{
+    padding: 20px 60px;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+.large{
+    padding: 30px 80px;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.block{
+    display: block;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.disable{
+    border: 1px solid black;
+    color: black;
+}
+
+.disable:hover{
+    background:none;
+    color: black;
+
+}

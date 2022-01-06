@@ -1,0 +1,29 @@
+.my-breadcrumbs{
+    margin: 20px 10px;
+}
+.my-modal{
+    margin: 20px 10px;
+}
+
+.open-modal{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: wheat;
+}
+
+.open-modal:hover{
+    background-color: black;
+    color: wheat;
+    cursor: pointer;
+}
+
+.crousel{
+    height: 100vh;
+}
+
+.pagination{
+    margin-top: 80px;
+    margin-left: 40px;
+}
